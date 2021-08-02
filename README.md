@@ -1,6 +1,5 @@
-# Group_4997 - {How's the air up there?}
+# Group_4997 - {Do Heavy metals in the atmosphere increase atmospheric temperature?}
 
-- Your title can change over time.
 
 ## Milestones
 
