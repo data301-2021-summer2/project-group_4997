@@ -8,7 +8,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 ## Describe your topic/interest in about 150-200 words
 
-{Air quality has becoming becoming more and more of a pressing issue in recent years. I had some personal experience with poor air quality in the past couple years as I took a year off school to travel. Some parts of China and Southeast Asia, specifically the philipinnes, had caught my interest in looking at air quality. So, I thought it would be interesting to study the data.}
+{Air quality has been becoming more and more of a pressing issue in recent years. I had some personal experience with poor air quality in the past couple years as I took a year off school to travel. Some parts of China and Southeast Asia, specifically the philipinnes, had caught my interest in looking at air quality. So, I thought it would be interesting to study the data.}
 
 ## Describe your dataset in about 150-200 words
 
