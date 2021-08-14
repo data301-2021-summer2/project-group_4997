@@ -1,0 +1,756 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20212.21.0712.0907                               -->
+<workbook source-build='2021.2.1 (20212.21.0712.0907)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='cleaned_data' inline='true' name='federated.0hrj9wk1hv14qe1c1d1in066r54l' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='cleaned_data' name='textscan.18cn2uk1ino6fr16lojfj0p852fa'>
+            <connection class='textscan' directory='C:/Users/ASUS/school/year1/Summer/data301/project-group_4997/data/processed' filename='cleaned_data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.18cn2uk1ino6fr16lojfj0p852fa' name='cleaned_data.csv' table='[cleaned_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Temperature' ordinal='0' />
+            <column datatype='integer' name='Tin Oxide' ordinal='1' />
+            <column datatype='integer' name='Titania' ordinal='2' />
+            <column datatype='integer' name='Tungsten Oxide' ordinal='3' />
+            <column datatype='integer' name='Indium Oxide' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.18cn2uk1ino6fr16lojfj0p852fa' name='cleaned_data.csv' table='[cleaned_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Temperature' ordinal='0' />
+            <column datatype='integer' name='Tin Oxide' ordinal='1' />
+            <column datatype='integer' name='Titania' ordinal='2' />
+            <column datatype='integer' name='Tungsten Oxide' ordinal='3' />
+            <column datatype='integer' name='Indium Oxide' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[cleaned_data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Temperature</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Temperature]</local-name>
+            <parent-name>[cleaned_data.csv]</parent-name>
+            <remote-alias>Temperature</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tin Oxide</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tin Oxide]</local-name>
+            <parent-name>[cleaned_data.csv]</parent-name>
+            <remote-alias>Tin Oxide</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Titania</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Titania]</local-name>
+            <parent-name>[cleaned_data.csv]</parent-name>
+            <remote-alias>Titania</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tungsten Oxide</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tungsten Oxide]</local-name>
+            <parent-name>[cleaned_data.csv]</parent-name>
+            <remote-alias>Tungsten Oxide</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Indium Oxide</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Indium Oxide]</local-name>
+            <parent-name>[cleaned_data.csv]</parent-name>
+            <remote-alias>Indium Oxide</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Indium Oxide]' role='measure' type='ordinal' />
+      <column datatype='integer' name='[Temperature]' role='measure' type='ordinal' />
+      <column datatype='integer' name='[Tin Oxide]' role='measure' type='ordinal' />
+      <column datatype='integer' name='[Titania]' role='measure' type='ordinal' />
+      <column datatype='integer' name='[Tungsten Oxide]' role='measure' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='cleaned_data.csv' datatype='table' name='[__tableau_internal_object_id__].[cleaned_data.csv_D575E21D774D42A8BD99FC7BDCAA39FB]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[cleaned_data.csv_D575E21D774D42A8BD99FC7BDCAA39FB]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:cleaned_data.csv_D575E21D774D42A8BD99FC7BDCAA39FB:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Indium Oxide]' derivation='Avg' name='[avg:Indium Oxide:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tin Oxide]' derivation='Avg' name='[avg:Tin Oxide:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Titania]' derivation='Avg' name='[avg:Titania:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tungsten Oxide]' derivation='Avg' name='[avg:Tungsten Oxide:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Temperature]' derivation='CountD' name='[ctd:Temperature:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Indium Oxide]' derivation='Median' name='[med:Indium Oxide:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tin Oxide]' derivation='Median' name='[med:Tin Oxide:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Titania]' derivation='Median' name='[med:Titania:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tungsten Oxide]' derivation='Median' name='[med:Tungsten Oxide:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Indium Oxide]' derivation='Min' name='[min:Indium Oxide:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tin Oxide]' derivation='Min' name='[min:Tin Oxide:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Titania]' derivation='Min' name='[min:Titania:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tungsten Oxide]' derivation='Min' name='[min:Tungsten Oxide:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Indium Oxide]' derivation='Stdev' name='[std:Indium Oxide:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tin Oxide]' derivation='Stdev' name='[std:Tin Oxide:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Titania]' derivation='Stdev' name='[std:Titania:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tungsten Oxide]' derivation='Stdev' name='[std:Tungsten Oxide:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Indium Oxide]' derivation='Sum' name='[sum:Indium Oxide:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Temperature]' derivation='Sum' name='[sum:Temperature:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tin Oxide]' derivation='Sum' name='[sum:Tin Oxide:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Titania]' derivation='Sum' name='[sum:Titania:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tungsten Oxide]' derivation='Sum' name='[sum:Tungsten Oxide:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Indium Oxide]' derivation='Var' name='[var:Indium Oxide:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tin Oxide]' derivation='Var' name='[var:Tin Oxide:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Titania]' derivation='Var' name='[var:Titania:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tungsten Oxide]' derivation='Var' name='[var:Tungsten Oxide:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[__tableau_internal_object_id__].[cnt:cleaned_data.csv_D575E21D774D42A8BD99FC7BDCAA39FB:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[med:Tin Oxide:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[min:Tin Oxide:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[std:Tin Oxide:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[sum:Tin Oxide:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[var:Tin Oxide:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[sum:Temperature:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[avg:Tungsten Oxide:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[med:Tungsten Oxide:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[min:Tungsten Oxide:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[std:Tungsten Oxide:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[sum:Tungsten Oxide:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[var:Tungsten Oxide:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[avg:Indium Oxide:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[med:Indium Oxide:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[min:Indium Oxide:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[std:Indium Oxide:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[sum:Indium Oxide:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[var:Indium Oxide:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[avg:Titania:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[med:Titania:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[min:Titania:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[std:Titania:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[sum:Titania:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[var:Titania:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[ctd:Temperature:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[avg:Tin Oxide:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='cleaned_data.csv' id='cleaned_data.csv_D575E21D774D42A8BD99FC7BDCAA39FB'>
+            <properties context=''>
+              <relation connection='textscan.18cn2uk1ino6fr16lojfj0p852fa' name='cleaned_data.csv' table='[cleaned_data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='Temperature' ordinal='0' />
+                  <column datatype='integer' name='Tin Oxide' ordinal='1' />
+                  <column datatype='integer' name='Titania' ordinal='2' />
+                  <column datatype='integer' name='Tungsten Oxide' ordinal='3' />
+                  <column datatype='integer' name='Indium Oxide' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='area graph'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_data' name='federated.0hrj9wk1hv14qe1c1d1in066r54l' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0hrj9wk1hv14qe1c1d1in066r54l'>
+            <column datatype='integer' name='[Indium Oxide]' role='measure' type='ordinal' />
+            <column datatype='integer' name='[Temperature]' role='measure' type='ordinal' />
+            <column datatype='integer' name='[Tin Oxide]' role='measure' type='ordinal' />
+            <column datatype='integer' name='[Titania]' role='measure' type='ordinal' />
+            <column datatype='integer' name='[Tungsten Oxide]' role='measure' type='ordinal' />
+            <column-instance column='[Indium Oxide]' derivation='Avg' name='[avg:Indium Oxide:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tin Oxide]' derivation='Avg' name='[avg:Tin Oxide:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Titania]' derivation='Avg' name='[avg:Titania:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tungsten Oxide]' derivation='Avg' name='[avg:Tungsten Oxide:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Temperature]' derivation='None' name='[none:Temperature:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0hrj9wk1hv14qe1c1d1in066r54l].[none:Temperature:ok]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Temperature:ok]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Temperature:ok]' member='%null%' />
+                <groupfilter function='member' level='[none:Temperature:ok]' member='-200' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0hrj9wk1hv14qe1c1d1in066r54l].[none:Temperature:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0hrj9wk1hv14qe1c1d1in066r54l].[avg:Indium Oxide:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#a0cbe8' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0hrj9wk1hv14qe1c1d1in066r54l].[avg:Tin Oxide:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#edc948' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0hrj9wk1hv14qe1c1d1in066r54l].[avg:Titania:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#fabfd2' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0hrj9wk1hv14qe1c1d1in066r54l].[avg:Tungsten Oxide:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#76b7b2' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0hrj9wk1hv14qe1c1d1in066r54l].[avg:Tungsten Oxide:qk] + ([federated.0hrj9wk1hv14qe1c1d1in066r54l].[avg:Titania:qk] + ([federated.0hrj9wk1hv14qe1c1d1in066r54l].[avg:Indium Oxide:qk] + [federated.0hrj9wk1hv14qe1c1d1in066r54l].[avg:Tin Oxide:qk])))</rows>
+        <cols>[federated.0hrj9wk1hv14qe1c1d1in066r54l].[none:Temperature:ok]</cols>
+      </table>
+      <simple-id uuid='{7920AEFC-89E8-41EE-B05F-E093A9A070F0}' />
+    </worksheet>
+    <worksheet name='barcharts'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_data' name='federated.0hrj9wk1hv14qe1c1d1in066r54l' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0hrj9wk1hv14qe1c1d1in066r54l'>
+            <column datatype='integer' name='[Indium Oxide]' role='measure' type='ordinal' />
+            <column datatype='integer' name='[Temperature]' role='measure' type='ordinal' />
+            <column datatype='integer' name='[Tin Oxide]' role='measure' type='ordinal' />
+            <column datatype='integer' name='[Titania]' role='measure' type='ordinal' />
+            <column datatype='integer' name='[Tungsten Oxide]' role='measure' type='ordinal' />
+            <column-instance column='[Indium Oxide]' derivation='Avg' name='[avg:Indium Oxide:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tin Oxide]' derivation='Avg' name='[avg:Tin Oxide:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Titania]' derivation='Avg' name='[avg:Titania:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tungsten Oxide]' derivation='Avg' name='[avg:Tungsten Oxide:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Temperature]' derivation='None' name='[none:Temperature:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0hrj9wk1hv14qe1c1d1in066r54l].[none:Temperature:ok]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Temperature:ok]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Temperature:ok]' member='%null%' />
+                <groupfilter function='member' level='[none:Temperature:ok]' member='-200' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0hrj9wk1hv14qe1c1d1in066r54l].[none:Temperature:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0hrj9wk1hv14qe1c1d1in066r54l].[avg:Indium Oxide:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#a0cbe8' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0hrj9wk1hv14qe1c1d1in066r54l].[avg:Tin Oxide:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#edc948' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0hrj9wk1hv14qe1c1d1in066r54l].[avg:Titania:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#fabfd2' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0hrj9wk1hv14qe1c1d1in066r54l].[avg:Tungsten Oxide:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#76b7b2' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0hrj9wk1hv14qe1c1d1in066r54l].[avg:Tungsten Oxide:qk] + ([federated.0hrj9wk1hv14qe1c1d1in066r54l].[avg:Titania:qk] + ([federated.0hrj9wk1hv14qe1c1d1in066r54l].[avg:Indium Oxide:qk] + [federated.0hrj9wk1hv14qe1c1d1in066r54l].[avg:Tin Oxide:qk])))</rows>
+        <cols>[federated.0hrj9wk1hv14qe1c1d1in066r54l].[none:Temperature:ok]</cols>
+      </table>
+      <simple-id uuid='{76D3305D-AC01-414A-ADA2-D1BEF1AFA388}' />
+    </worksheet>
+    <worksheet name='line graph'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_data' name='federated.0hrj9wk1hv14qe1c1d1in066r54l' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0hrj9wk1hv14qe1c1d1in066r54l'>
+            <column datatype='integer' name='[Indium Oxide]' role='measure' type='ordinal' />
+            <column datatype='integer' name='[Temperature]' role='measure' type='ordinal' />
+            <column datatype='integer' name='[Tin Oxide]' role='measure' type='ordinal' />
+            <column datatype='integer' name='[Titania]' role='measure' type='ordinal' />
+            <column datatype='integer' name='[Tungsten Oxide]' role='measure' type='ordinal' />
+            <column-instance column='[Indium Oxide]' derivation='Avg' name='[avg:Indium Oxide:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tin Oxide]' derivation='Avg' name='[avg:Tin Oxide:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Titania]' derivation='Avg' name='[avg:Titania:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tungsten Oxide]' derivation='Avg' name='[avg:Tungsten Oxide:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Temperature]' derivation='None' name='[none:Temperature:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Indium Oxide]' derivation='Var' name='[var:Indium Oxide:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tin Oxide]' derivation='Var' name='[var:Tin Oxide:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Titania]' derivation='Var' name='[var:Titania:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tungsten Oxide]' derivation='Var' name='[var:Tungsten Oxide:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0hrj9wk1hv14qe1c1d1in066r54l].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[avg:Indium Oxide:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[avg:Tin Oxide:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[avg:Titania:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0hrj9wk1hv14qe1c1d1in066r54l].[avg:Tungsten Oxide:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0hrj9wk1hv14qe1c1d1in066r54l].[none:Temperature:ok]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Temperature:ok]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Temperature:ok]' member='%null%' />
+                <groupfilter function='member' level='[none:Temperature:ok]' member='-200' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.0hrj9wk1hv14qe1c1d1in066r54l].[var:Indium Oxide:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.0hrj9wk1hv14qe1c1d1in066r54l].[var:Tin Oxide:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.0hrj9wk1hv14qe1c1d1in066r54l].[var:Titania:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.0hrj9wk1hv14qe1c1d1in066r54l].[var:Tungsten Oxide:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.0hrj9wk1hv14qe1c1d1in066r54l].[none:Temperature:ok]</column>
+            <column>[federated.0hrj9wk1hv14qe1c1d1in066r54l].[:Measure Names]</column>
+            <column>[federated.0hrj9wk1hv14qe1c1d1in066r54l].[var:Indium Oxide:qk]</column>
+            <column>[federated.0hrj9wk1hv14qe1c1d1in066r54l].[var:Tin Oxide:qk]</column>
+            <column>[federated.0hrj9wk1hv14qe1c1d1in066r54l].[var:Titania:qk]</column>
+            <column>[federated.0hrj9wk1hv14qe1c1d1in066r54l].[var:Tungsten Oxide:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0hrj9wk1hv14qe1c1d1in066r54l].[Multiple Values]' scope='rows' value='microgram per m^3' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0hrj9wk1hv14qe1c1d1in066r54l].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#76b7b2' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0hrj9wk1hv14qe1c1d1in066r54l].[Multiple Values]</rows>
+        <cols>[federated.0hrj9wk1hv14qe1c1d1in066r54l].[none:Temperature:ok]</cols>
+      </table>
+      <simple-id uuid='{92F08230-FCF6-4D35-8425-FC398136D450}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='presentation'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Do large airborn metals have an effect on temperature?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='7' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98230' id='10' param='vert' type-v2='layout-flow' w='99064' x='468' y='885'>
+            <zone h='98230' id='8' type-v2='layout-basic' w='99064' x='468' y='885' />
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='22456' id='13' is-centered='0' is-scaled='1' param='C:/Users/ASUS/school/year1/Summer/data301/lab6-aflotten/data/sundashboard.jpg' type-v2='bitmap' w='10532' x='86600' y='664' />
+        <zone h='21571' id='12' is-centered='0' is-scaled='1' param='C:/Users/ASUS/school/year1/Summer/data301/lab6-aflotten/data/sundashboard.jpg' type-v2='bitmap' w='9889' x='1872' y='1217' />
+        <zone h='82412' id='3' name='barcharts' w='29608' x='3277' y='15708' />
+        <zone h='81637' id='4' name='area graph' w='28379' x='69631' y='15819' />
+        <zone h='51991' id='5' name='line graph' show-title='false' w='30486' x='35576' y='42478' />
+        <zone h='10841' id='6' name='line graph' pane-specification-id='4' param='[federated.0hrj9wk1hv14qe1c1d1in066r54l].[:Measure Names]' type-v2='color' w='8309' x='57695' y='74336' />
+        <zone h='9845' id='11' type-v2='title' w='42305' x='29198' y='885' />
+        <zone h='23341' id='14' is-centered='0' is-scaled='1' param='C:/Users/ASUS/school/year1/Summer/data301/lab6-aflotten/data/air-pollution-chimney-clouds-459728-1920x700.jpg' type-v2='bitmap' w='27443' x='37917' y='16593' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run>Do large airborn metals have an effect on temperature?</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1600' minheight='1600' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='16' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98230' id='15' param='vert' type-v2='layout-flow' w='99064' x='468' y='885'>
+                <zone h='9845' id='11' type-v2='title' w='42305' x='29198' y='885'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='180' h='22456' id='13' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/ASUS/school/year1/Summer/data301/lab6-aflotten/data/sundashboard.jpg' type-v2='bitmap' w='10532' x='86600' y='664'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='172' h='21571' id='12' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/ASUS/school/year1/Summer/data301/lab6-aflotten/data/sundashboard.jpg' type-v2='bitmap' w='9889' x='1872' y='1217'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='82412' id='3' is-fixed='true' name='barcharts' w='29608' x='3277' y='15708'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='81637' id='4' is-fixed='true' name='area graph' w='28379' x='69631' y='15819'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='186' h='23341' id='14' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/ASUS/school/year1/Summer/data301/lab6-aflotten/data/air-pollution-chimney-clouds-459728-1920x700.jpg' type-v2='bitmap' w='27443' x='37917' y='16593'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='51991' id='5' is-fixed='true' name='line graph' show-title='false' w='30486' x='35576' y='42478'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10841' id='6' name='line graph' pane-specification-id='4' param='[federated.0hrj9wk1hv14qe1c1d1in066r54l].[:Measure Names]' type-v2='color' w='8309' x='57695' y='74336'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{B3763F85-15E0-4474-B4CE-42D4DAC9C58A}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='barcharts'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{17A5FED9-7D5C-4578-9BFF-DA5BEB85C31C}' />
+    </window>
+    <window class='worksheet' name='area graph'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F25D1B48-CD56-44B6-ABEE-0CD5EFF2E305}' />
+    </window>
+    <window class='worksheet' name='line graph'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='4' param='[federated.0hrj9wk1hv14qe1c1d1in066r54l].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{AF87CE9A-D0DC-4F44-89AF-BD7FF462F273}' />
+    </window>
+    <window class='dashboard' maximized='true' name='presentation'>
+      <viewpoints>
+        <viewpoint name='area graph'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='barcharts'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='line graph'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='8' />
+      <simple-id uuid='{0DEE2EE0-1F07-4837-AD6A-756644BE9BE0}' />
+    </window>
+  </windows>
+</workbook>
